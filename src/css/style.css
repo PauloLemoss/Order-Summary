@@ -71,6 +71,8 @@ main .information-card .plan-container{
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 95%;
+    max-width: 400px;
 }
 
 main .plan-container .icon-music{
@@ -95,7 +97,7 @@ main .Annual-plan-container .price-plan{
 
 main .card .change .change-text{
     font-size: 14px;
-    margin-left: 80px;
+    margin-left: 60px;
     color: hsl(245, 75%, 52%);
 }
 

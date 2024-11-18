@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    body {
+        margin-top: 20px;
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; 
+        max-width: 400px; 
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+
+    .ilustration-hero {
+        width: 100%;
+        border-radius: 15px;
+        
+    }
+
+    .information-card {
+        width: 100%;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .plan-container {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .button-container .proceed-payment-button,
+    .button-container .cancel-order-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

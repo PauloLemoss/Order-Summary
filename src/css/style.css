@@ -1,0 +1,139 @@
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+   
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .card .ilustration-hero{
+   width: 100%;
+   max-width: 435px;
+   height: auto;
+   border-radius: 10px;
+   
+   
+   
+}
+
+main .information-card{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+main .information-card .title-card{
+    
+    font-family: "Red Hat Display", serif;
+    font-size: 22px;
+    margin-top: 25px;  
+    padding: 10px;
+}
+
+main .information-card .paragraph-card{
+    font-family: "Red Hat Display", serif;
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 25px; 
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main .information-card .plan-container{
+    font-family: "Red Hat Display", serif;    
+    
+    
+
+    background-color: #F0F4FF;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+main .information-card .plan-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .plan-container .icon-music{
+    padding-left: 15px;
+}
+
+main .Annual-plan-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+main .Annual-plan-container .Annual-plan-title{
+    text-align: center;
+    font-size: 16px;
+}
+main .Annual-plan-container .price-plan{
+    color: #6B7280
+}
+
+main .card .change .change-text{
+    font-size: 14px;
+    margin-left: 30px;
+    color: hsl(245, 75%, 52%);
+}
+
+main .button-container{
+    margin-top: 20px;
+}
+
+main .button-container .proceed-payment-button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    color: white;
+    background-color:hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+main .button-container .proceed-payment-button:hover{
+    background-color: #9A7BFF;
+    transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+main .button-container .cancel-order-button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: white;
+
+    border: 1px solid white;
+    color: #6B7280;
+    cursor: pointer;
+    
+}
+
+main .button-container .cancel-order-button:hover{
+    color: black;
+    transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+main .change-text a:hover{
+    color:#9A7BFF ;
+}
